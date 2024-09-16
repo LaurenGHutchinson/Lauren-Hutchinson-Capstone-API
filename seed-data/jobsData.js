@@ -1,42 +1,42 @@
 export default [
     { 
         id: 1, 
-        jobTitle: "Software Engineer"
+        job_title: "Software Engineer"
     },
     { 
         id: 2, 
-        jobTitle: "Full Stack Developer"
+        job_title: "Full Stack Developer"
     },
     { 
         id: 3, 
-        jobTitle: "Data Scientist" 
+        job_title: "Data Scientist" 
     },
     { 
         id: 4, 
-        jobTitle: "DevOps Engineer" 
+        job_title: "DevOps Engineer" 
     },
     { 
         id: 5, 
-        jobTitle: "Backend Engineer" 
+        job_title: "Backend Engineer" 
     },
     { 
         id: 6, 
-        jobTitle: "Machine Learning Engineer" 
+        job_title: "Machine Learning Engineer" 
     },
     { 
         id: 7, 
-        jobTitle: "Cloud Engineer" 
+        job_title: "Cloud Engineer" 
     },
     { 
         id: 8, 
-        jobTitle: "Security Engineer" 
+        job_title: "Security Engineer" 
     },
     { 
         id: 9, 
-        jobTitle: "Mobile Application Developer" 
+        job_title: "Mobile Application Developer" 
     },
     { 
         id: 10, 
-        jobTitle: "Systems Architect" 
+        job_title: "Systems Architect" 
     }
   ]
