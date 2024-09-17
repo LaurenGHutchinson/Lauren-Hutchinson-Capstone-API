@@ -1,8 +1,11 @@
 import express from 'express';
 const questionsRouter = express.Router();
+import initKnex from 'knex';
+import config from '../knexfile.js'
+import * as questionsController from '../controllers/questionsController.js'
 
-questionsRouter.get('/', (req,res)=> {
-    res.send("welcome to my questions API")
-})
+const knex = initKnex(config);
+
+questionsRouter.route('/').get(questionsController.index);
 
 export default questionsRouter;
