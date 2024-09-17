@@ -6,6 +6,7 @@ import * as jobsController from '../controllers/jobsController.js'
 
 const knex = initKnex(config);
 
-jobsRouter.route('/').get(jobsController.index);
+jobsRouter.route('/')
+    .get(jobsController.getJobs);
 
 export default jobsRouter;

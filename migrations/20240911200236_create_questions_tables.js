@@ -7,7 +7,6 @@ export function up(knex) {
           .references('id').inTable('skills')     // Links to jobsData(id)
           .onDelete('CASCADE')                      // Deletes associated skills if the job is deleted
           .onUpdate('CASCADE');                     // Updates associated skills if the job id is updated
-        table.timestamps(true, true);               // Adds created_at and updated_at columns
       });
 };
   

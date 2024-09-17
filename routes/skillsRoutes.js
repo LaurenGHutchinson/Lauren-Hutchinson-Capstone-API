@@ -6,6 +6,12 @@ import * as skillsController from '../controllers/skillsController.js'
 
 const knex = initKnex(config);
 
-skillsRouter.route('/').get(skillsController.index);
+skillsRouter.route('/')
+    .get(skillsController.getSkills);
+    
+skillsRouter.route('/:id')
+    .get(skillsController.getJobSkills);
+
+
 
 export default skillsRouter;

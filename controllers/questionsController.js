@@ -12,6 +12,10 @@ const index = async (_req,res) => {
     }
 }
 
+const getQuestions = async (req,res) => {
+    
+}
+
 export {
     index,
 }

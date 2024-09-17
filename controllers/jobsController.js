@@ -3,7 +3,7 @@ import config from '../knexfile.js'
 
 const knex = initKnex(config);
 
-const index = async (_req,res) => {
+const getJobs = async (_req,res) => {
     try{
         const data = await knex('jobs');
         res.status(200).json(data);
@@ -12,6 +12,7 @@ const index = async (_req,res) => {
     }
 }
 
+
 export {
-    index,
+    getJobs,
 }

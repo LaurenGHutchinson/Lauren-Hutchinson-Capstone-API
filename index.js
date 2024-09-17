@@ -15,7 +15,7 @@ const knex = initKnex(config); //importing server data from knex config file and
 const PORT = process.env.PORT || 8080; //setting the port to be taken from the .env or setting backup
 
 app.use(express.json()); //initializing json middleware 
-// app.use(cors({origin: process.env.CORS_ORIGIN})); //intialize cors for sending and receiving data from client-end
+app.use(cors({origin: process.env.CORS_ORIGIN})); //intialize cors for sending and receiving data from client-end
 
 app.get('/', (req,res)=> {
     res.send("Welcome to my capstone API")
