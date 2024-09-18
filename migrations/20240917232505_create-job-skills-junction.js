@@ -16,6 +16,6 @@ export function up(knex) {
   
   
   export function down(knex) {
-    return knex.schema.dropTable('jobs')
+    return knex.schema.dropTable('job_skills')
   };
   
