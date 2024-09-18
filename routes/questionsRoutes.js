@@ -8,4 +8,6 @@ const knex = initKnex(config);
 
 questionsRouter.route('/').get(questionsController.index);
 
+questionsRouter.route('/:id').get(questionsController.getQuestions);
+
 export default questionsRouter;

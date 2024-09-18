@@ -2,421 +2,336 @@ export default [
     {
         id: 1,
         skill: "JavaScript",
-        category: "Programming Language",
-        job_title: "Software Engineer",
-        job_id:1
+        category: "Programming Language"
     },
     {
         id: 2,
-        skill: "JavaScript",
-        category: "Programming Language",
-        job_title: "Full Stack Developer",
-        job_id:2
+        skill: "Python",
+        category: "Programming Language"
     },
     {
         id: 3,
-        skill: "JavaScript",
-        category: "Programming Language",
-        job_title: "Backend Engineer",
-        job_id:5
+        skill: "Java",
+        category: "Programming Language"
     },
     {
         id: 4,
-        skill: "Python",
-        category: "Programming Language",
-        job_title: "Data Scientist",
-        job_id:3
+        skill: "C++",
+        category: "Programming Language"
     },
     {
         id: 5,
-        skill: "Python",
-        category: "Programming Language",
-        job_title: "Machine Learning Engineer",
-        job_id:6
+        skill: "C#",
+        category: "Programming Language"
     },
     {
         id: 6,
-        skill: "Python",
-        category: "Programming Language",
-        job_title: "DevOps Engineer",
-        job_id:4
+        skill: "Ruby",
+        category: "Programming Language"
     },
     {
         id: 7,
-        skill: "Python",
-        category: "Programming Language",
-        job_title: "Cloud Engineer",
-        job_id:7
+        skill: "SQL",
+        category: "Database"
     },
     {
         id: 8,
-        skill: "HTML",
-        category: "Front-End Development",
-        job_title: "Full Stack Developer",
-        job_id:2
+        skill: "MongoDB",
+        category: "Database"
     },
     {
         id: 9,
-        skill: "CSS",
-        category: "Front-End Development",
-        job_title: "Full Stack Developer",
-        job_id:2
+        skill: "PostgreSQL",
+        category: "Database"
     },
     {
         id: 10,
-        skill: "React.js",
-        category: "Front-End Development",
-        job_title: "Full Stack Developer",
-        job_id:2
+        skill: "MySQL",
+        category: "Database"
     },
     {
         id: 11,
-        skill: "React.js",
-        category: "Front-End Development",
-        job_title: "Software Engineer",
-        job_id:1
+        skill: "Redis",
+        category: "Database"
     },
     {
         id: 12,
-        skill: "Node.js",
-        category: "Back-End Development",
-        job_title: "Full Stack Developer",
-        job_id:2
+        skill: "SQLite",
+        category: "Database"
     },
     {
         id: 13,
-        skill: "Node.js",
-        category: "Back-End Development",
-        job_title: "Backend Engineer",
-        job_id: 5
+        skill: "React.js",
+        category: "Frontend Framework"
     },
     {
         id: 14,
-        skill: "Docker",
-        category: "DevOps & Deployment",
-        job_title: "DevOps Engineer",
-        job_id: 4
+        skill: "Vue.js",
+        category: "Frontend Framework"
     },
     {
         id: 15,
-        skill: "Docker",
-        category: "DevOps & Deployment",
-        job_title: "Cloud Engineer",
-        job_id: 7
+        skill: "Angular",
+        category: "Frontend Framework"
     },
     {
         id: 16,
-        skill: "Docker",
-        category: "DevOps & Deployment",
-        job_title: "Backend Engineer",
-        job_id: 5
+        skill: "Svelte",
+        category: "Frontend Framework"
     },
     {
         id: 17,
-        skill: "AWS",
-        category: "Cloud Platforms",
-        job_title: "Cloud Engineer",
-        job_id: 7
+        skill: "Bootstrap",
+        category: "Frontend Framework"
     },
     {
         id: 18,
-        skill: "AWS",
-        category: "Cloud Platforms",
-        job_title: "Full Stack Developer",
-        job_id: 2
+        skill: "jQuery",
+        category: "Frontend Framework"
     },
     {
         id: 19,
-        skill: "AWS",
-        category: "Cloud Platforms",
-        job_title: "Security Engineer",
-        job_id: 8
+        skill: "Node.js",
+        category: "Backend Framework"
     },
     {
         id: 20,
-        skill: "MySQL",
-        category: "Database",
-        job_title: "Backend Engineer",
-        job_id: 5
+        skill: "Django",
+        category: "Backend Framework"
     },
     {
         id: 21,
-        skill: "MySQL",
-        category: "Database",
-        job_title: "Full Stack Developer",
-        job_id: 2
+        skill: "Spring Boot",
+        category: "Backend Framework"
     },
     {
         id: 22,
-        skill: "MySQL",
-        category: "Database",
-        job_title: "Software Engineer",
-        job_id: 1
+        skill: "Express.js",
+        category: "Backend Framework"
     },
     {
         id: 23,
-        skill: "MongoDB",
-        category: "Database",
-        job_title: "Full Stack Developer",
-        job_id: 2
+        skill: "Ruby on Rails",
+        category: "Backend Framework"
     },
     {
         id: 24,
-        skill: "PostgreSQL",
-        category: "Database",
-        job_title: "Backend Engineer",
-        job_id: 5
+        skill: "Flask",
+        category: "Backend Framework"
     },
     {
         id: 25,
-        skill: "PostgreSQL",
-        category: "Database",
-        job_title: "Software Engineer",
-        job_id: 1
+        skill: "Git",
+        category: "Version Control"
     },
     {
         id: 26,
-        skill: "RESTful APIs",
-        category: "API Development",
-        job_title: "Full Stack Developer",
-        job_id: 5
+        skill: "GitHub",
+        category: "Version Control"
     },
     {
         id: 27,
-        skill: "RESTful APIs",
-        category: "API Development",
-        job_title: "Backend Engineer",
-        job_id: 5
+        skill: "GitLab",
+        category: "Version Control"
     },
     {
         id: 28,
-        skill: "GraphQL",
-        category: "API Development",
-        job_title: "Full Stack Developer",
-        job_id: 2
+        skill: "Bitbucket",
+        category: "Version Control"
     },
     {
         id: 29,
-        skill: "GraphQL",
-        category: "API Development",
-        job_title: "Backend Engineer",
-        job_id: 5
+        skill: "SVN",
+        category: "Version Control"
     },
     {
         id: 30,
-        skill: "TensorFlow",
-        category: "Machine Learning Libraries",
-        job_title: "Machine Learning Engineer",
-        job_id: 6
+        skill: "Mercurial",
+        category: "Version Control"
     },
     {
         id: 31,
-        skill: "TensorFlow",
-        category: "Machine Learning Libraries",
-        job_title: "Data Scientist",
-        job_id: 3
+        skill: "Agile Methodologies",
+        category: "Development Process"
     },
     {
         id: 32,
-        skill: "PyTorch",
-        category: "Machine Learning Libraries",
-        job_title: "Machine Learning Engineer",
-        job_id: 6
+        skill: "Scrum",
+        category: "Development Process"
     },
     {
         id: 33,
-        skill: "Scikit-Learn",
-        category: "Machine Learning Libraries",
-        job_title: "Machine Learning Engineer",
-        job_id: 6
+        skill: "Kanban",
+        category: "Development Process"
     },
     {
         id: 34,
-        skill: "Scikit-Learn",
-        category: "Machine Learning Libraries",
-        job_title: "Data Scientist",
-        job_id: 3
+        skill: "Continuous Integration",
+        category: "Development Process"
     },
     {
         id: 35,
-        skill: "Kubernetes",
-        category: "DevOps & Deployment",
-        job_title: "DevOps Engineer",
-        job_id: 4
+        skill: "Test-Driven Development",
+        category: "Development Process"
     },
     {
         id: 36,
-        skill: "Kubernetes",
-        category: "DevOps & Deployment",
-        job_title: "Cloud Engineer",
-        job_id: 7
+        skill: "DevOps",
+        category: "Development Process"
     },
     {
         id: 37,
-        skill: "Kubernetes",
-        category: "DevOps & Deployment",
-        job_title: "Backend Engineer",
-        job_id: 5
+        skill: "Docker",
+        category: "Containerization"
     },
     {
         id: 38,
-        skill: "Terraform",
-        category: "Infrastructure as Code",
-        job_title: "DevOps Engineer",
-        job_id: 4
+        skill: "Kubernetes",
+        category: "Container Orchestration"
     },
     {
         id: 39,
-        skill: "Terraform",
-        category: "Infrastructure as Code",
-        job_title: "Cloud Engineer",
-        job_id: 7
+        skill: "OpenShift",
+        category: "Container Orchestration"
     },
     {
         id: 40,
-        skill: "Terraform",
-        category: "Infrastructure as Code",
-        job_title: "Security Engineer",
-        job_id: 8
+        skill: "AWS",
+        category: "Cloud Platform"
     },
     {
         id: 41,
-        skill: "Nginx",
-        category: "DevOps & Deployment",
-        job_title: "DevOps Engineer",
-        job_id: 4
+        skill: "Microsoft Azure",
+        category: "Cloud Platform"
     },
     {
         id: 42,
-        skill: "Nginx",
-        category: "DevOps & Deployment",
-        job_title: "Backend Engineer",
-        job_id: 5
+        skill: "Google Cloud Platform",
+        category: "Cloud Platform"
     },
     {
         id: 43,
-        skill: "Spring Boot",
-        category: "Web Frameworks",
-        job_title: "Software Engineer",
-        job_id: 1
+        skill: "Terraform",
+        category: "Cloud Platform"
     },
     {
         id: 44,
-        skill: "Spring Boot",
-        category: "Web Frameworks",
-        job_title: "Backend Engineer",
-        job_id: 5
+        skill: "Ansible",
+        category: "Cloud Platform"
     },
     {
         id: 45,
-        skill: "Django",
-        category: "Web Frameworks",
-        job_title: "Full Stack Developer",
-        job_id: 2
+        skill: "Unit Testing",
+        category: "Testing"
     },
     {
         id: 46,
-        skill: "Django",
-        category: "Web Frameworks",
-        job_title: "Backend Engineer",
-        job_id: 5
+        skill: "Integration Testing",
+        category: "Testing"
     },
     {
         id: 47,
-        skill: "Flask",
-        category: "Web Frameworks",
-        job_title: "Full Stack Developer",
-        job_id: 2
+        skill: "End-to-End Testing",
+        category: "Testing"
     },
     {
         id: 48,
-        skill: "Flask",
-        category: "Web Frameworks",
-        job_title: "Backend Engineer",
-        job_id: 5
+        skill: "Selenium",
+        category: "Testing"
     },
     {
         id: 49,
-        skill: "Unit Testing",
-        category: "Testing & Debugging",
-        job_title: "Software Engineer",
-        job_id: 1
+        skill: "Jest",
+        category: "Testing"
     },
     {
         id: 50,
-        skill: "Unit Testing",
-        category: "Testing & Debugging",
-        job_title: "Full Stack Developer",
-        job_id: 2
+        skill: "Mocha",
+        category: "Testing"
     },
     {
         id: 51,
-        skill: "Selenium",
-        category: "Testing & Debugging",
-        job_title: "Full Stack Developer",
-        job_id: 2
+        skill: "RESTful APIs",
+        category: "Web Services"
     },
     {
         id: 52,
-        skill: "Selenium",
-        category: "Testing & Debugging",
-        job_title: "Software Engineer",
-        job_id: 1
+        skill: "GraphQL",
+        category: "Web Services"
     },
     {
         id: 53,
-        skill: "Power BI",
-        category: "Data Visualization",
-        job_title: "Data Scientist",
-        job_id: 3
+        skill: "SOAP",
+        category: "Web Services"
     },
     {
         id: 54,
-        skill: "Tableau",
-        category: "Data Visualization",
-        job_title: "Data Scientist",
-        job_id: 3
+        skill: "gRPC",
+        category: "Web Services"
     },
     {
         id: 55,
-        skill: "Tableau",
-        category: "Data Visualization",
-        job_title: "Machine Learning Engineer",
-        job_id: 6
+        skill: "WebSockets",
+        category: "Web Services"
     },
     {
         id: 56,
-        skill: "JIRA",
-        category: "Project Management",
-        job_title: "Systems Architect",
-        job_id: 10
+        skill: "OAuth",
+        category: "Web Services"
     },
     {
         id: 57,
-        skill: "UML Diagrams",
-        category: "Tools & Collaboration",
-        job_title: "Systems Architect",
-        job_id: 10
+        skill: "Microservices",
+        category: "Architecture"
     },
     {
         id: 58,
-        skill: "SSL/TLS Encryption",
-        category: "Security",
-        job_title: "Security Engineer",
-        job_id: 8
+        skill: "Monolithic Architecture",
+        category: "Architecture"
     },
     {
         id: 59,
-        skill: "IAM",
-        category: "Security",
-        job_title: "Security Engineer",
-        job_id: 8
+        skill: "Event-Driven Architecture",
+        category: "Architecture"
     },
     {
         id: 60,
-        skill: "IAM",
-        category: "Security",
-        job_title: "Cloud Engineer",
-        job_id: 7
+        skill: "Service-Oriented Architecture (SOA)",
+        category: "Architecture"
+    },
+    {
+        id: 61,
+        skill: "Serverless Architecture",
+        category: "Architecture"
+    },
+    {
+        id: 62,
+        skill: "MVC Architecture",
+        category: "Architecture"
+    },
+    {
+        id: 63,
+        skill: "Terraform",
+        category: "Infrastructure as Code"
+    },
+    {
+        id: 64,
+        skill: "Puppet",
+        category: "Infrastructure as Code"
+    },
+    {
+        id: 65,
+        skill: "Chef",
+        category: "Infrastructure as Code"
+    },
+    {
+        id: 66,
+        skill: "Bash",
+        category: "Scripting"
+    },
+    {
+        id: 67,
+        skill: "PowerShell",
+        category: "Scripting"
     }
-]
+];

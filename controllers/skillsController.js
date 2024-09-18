@@ -15,9 +15,9 @@ const getSkills = async (_req,res) => {
 const getJobSkills = async (req, res) => {
     try{
         const skillsData = await knex('skills')
-        .select('skills.id', 'skill', 'category','job_id')
-        .innerJoin('jobs', 'skills.job_id', 'jobs.id')
-        .where('skills.job_id', req.params.id);
+        .select('skills.id', 'skill', 'category')
+        .innerJoin('job_skills', 'skills.id', 'job_skills.skill_id')
+        .where('job_skills.job_id', req.params.id);
 
         if(!skillsData){
             return res.status(404)
