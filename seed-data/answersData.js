@@ -1,281 +1,102 @@
 export default [
-        { 
-            id: 1, 
-            answer: "To handle and process client requests",
-            is_correct: 1,
-            question_id: 1 
-        },
-        { 
-            id: 2, 
-            answer: "To render HTML on the client side",
-            is_correct: 0,
-            question_id: 1  
-        },
-        { 
-            id: 3, 
-            answer: "To create UI components for the user",
-            is_correct: 0,
-            question_id: 1 
-        },
-        { 
-            id: 4, 
-            answer: "To store front-end code",
-            is_correct: 0,
-            question_id: 1 
-        },
-        { 
-            id: 5, 
-            answer: "True",
-            is_correct: 1,
-            question_id: 2 
-        },
-        { 
-            id: 6, 
-            answer: "false",
-            is_correct: 0,
-            question_id: 2 
-        },
-        { 
-            id: 7, 
-            answer: "PostgreSQL",
-            is_correct: 0,
-            question_id: 3 
-        },
-        { 
-            id: 8, 
-            answer: "MongoDB",
-            is_correct: 1,
-            question_id: 3 
-        },
-        { 
-            id: 9, 
-            answer: "MySQL",
-            is_correct: 0,
-            question_id: 3 
-        },
-        { 
-            id: 10, 
-            answer: "SQLite",
-            is_correct: 0,
-            question_id: 3 
-        },
-        { 
-            id: 11, 
-            answer: "Atomicity, Consistency, Isolation, Durability",
-            is_correct: 1,
-            question_id: 4
-        },
-        { 
-            id: 12, 
-            answer: "Access, Consistency, Isolation, Durability",
-            is_correct: 0,
-            question_id: 4
-        },
-        { 
-            id: 13, 
-            answer: "Atomicity, Compression, Integrity, Durability",
-            is_correct: 0,
-            question_id: 4
-        },
-        { 
-            id: 14, 
-            answer: "Atomicity, Consistency, Integration, Durability",
-            is_correct: 0,
-            question_id: 4
-        },
-        { 
-            id: 15, 
-            answer: "403",
-            is_correct: 0,
-            question_id: 5
-        },
-        { 
-            id: 16, 
-            answer: "404",
-            is_correct: 0,
-            question_id: 5
-        },
-        { 
-            id: 17, 
-            answer: "500",
-            is_correct: 0,
-            question_id: 5
-        },
-        { 
-            id: 18, 
-            answer: "200",
-            is_correct: 1,
-            question_id: 5
-        },
-        { 
-            id: 19, 
-            answer: "True",
-            is_correct: 1,
-            question_id: 6
-        },
-        { 
-            id: 20, 
-            answer: "False",
-            is_correct: 0,
-            question_id: 6
-        },
-        { 
-            id: 21, 
-            answer: "INTEGER",
-            is_correct: 0,
-            question_id: 7
-        },
-        { 
-            id: 22, 
-            answer: "VARCHAR",
-            is_correct: 0,
-            question_id: 7
-        },
-        { 
-            id: 23, 
-            answer: "BLOB",
-            is_correct: 0,
-            question_id: 7
-        },
-        { 
-            id: 24, 
-            answer: "ARRAY",
-            is_correct: 1,
-            question_id: 7
-        },
-        { 
-            id: 25, 
-            answer: "To create visual elements for the user",
-            is_correct: 0,
-            question_id: 8
-        },
-        { 
-            id: 26, 
-            answer: "To manage database connections" ,
-            is_correct: 0,
-            question_id: 8
-        },
-        { 
-            id: 27, 
-            answer: "To allow communication between different software applications",
-            is_correct: 1,
-            question_id: 8
-        },
-        { 
-            id: 28, 
-            answer: "To handle client-side routing",
-            is_correct: 0,
-            question_id: 8
-        },       
-        { 
-            id: 29, 
-            answer: "True",
-            is_correct: 1,
-            question_id: 9
-        },
-        { 
-            id: 30, 
-            answer: "False",
-            is_correct: 0,
-            question_id: 9
-        },
-        { 
-            id: 31, 
-            answer: "PostgreSQL",
-            is_correct: 0,
-            question_id: 10
-        },
-        { 
-            id: 32, 
-            answer: "MongoDB",
-            is_correct: 1,
-            question_id: 10
-        },
-        { 
-            id: 33, 
-            answer: "SQLite",
-            is_correct: 0,
-            question_id: 10
-        },
-        { 
-            id: 34, 
-            answer: "MySQL",
-            is_correct: 0,
-            question_id: 10
-        },
-        { 
-            id: 35, 
-            answer: "True",
-            is_correct: 1,
-            question_id: 12
-        },
-        { 
-            id: 36, 
-            answer: "False",
-            is_correct: 0,
-            question_id: 12
-        },
-
-        { 
-            id: 37, 
-            answer: "Observer Pattern",
-            is_correct: 0,
-            question_id: 13
-        },
-        { 
-            id: 38, 
-            answer: "Model-View-Controller (MVC)",
-            is_correct: 0,
-            question_id: 13
-        },
-        { 
-            id: 39, 
-            answer: "Singleton Pattern" ,
-            is_correct: 0,
-            question_id: 13
-        },
-        { 
-            id: 40, 
-            answer: "All of the above",
-            is_correct: 1,
-            question_id: 13
-        },
-        { 
-            id: 41, 
-            answer: "True",
-            is_correct: 0,
-            question_id: 14
-        },
-        { 
-            id: 42, 
-            answer: "False",
-            is_correct: 1,
-            question_id: 14
-        },
-        { 
-            id: 43, 
-            answer: "Create, Read, Update, Delete",
-            is_correct: 1,
-            question_id: 15
-        },
-        { 
-            id: 44, 
-            answer: "Create, Run, Update, Deploy",
-            is_correct: 0,
-            question_id: 15
-        },
-        { 
-            id: 45, 
-            answer: "Connect, Retrieve, Update, Delete",
-            is_correct: 0,
-            question_id: 15
-        },
-        { 
-            id: 46, 
-            answer: "Configure, Read, Use, Delete",
-            is_correct: 0,
-            question_id: 15
-        },
+    { id: 1, answer: "Web development", is_correct: 1, question_id: 1 },
+    { id: 2, answer: "Data Science", is_correct: 0, question_id: 1 },
+    { id: 3, answer: "Number", is_correct: 1, question_id: 2 },
+    { id: 4, answer: "Character", is_correct: 0, question_id: 2 },
+    { id: 5, answer: "parseInt()", is_correct: 1, question_id: 3 },
+    { id: 6, answer: "parseFloat()", is_correct: 0, question_id: 3 },
+    { id: 7, answer: "True", is_correct: 1, question_id: 4 },
+    { id: 8, answer: "False", is_correct: 0, question_id: 4 },
+    { id: 9, answer: "let", is_correct: 1, question_id: 5 },
+    { id: 10, answer: "varname", is_correct: 0, question_id: 5 },
+    { id: 11, answer: "Data Science and Machine Learning", is_correct: 1, question_id: 6 },
+    { id: 12, answer: "Web development", is_correct: 0, question_id: 6 },
+    { id: 13, answer: "def", is_correct: 1, question_id: 7 },
+    { id: 14, answer: "function", is_correct: 0, question_id: 7 },
+    { id: 15, answer: "True", is_correct: 1, question_id: 8 },
+    { id: 16, answer: "False", is_correct: 0, question_id: 8 },
+    { id: 17, answer: "List", is_correct: 1, question_id: 9 },
+    { id: 18, answer: "Class", is_correct: 0, question_id: 9 },
+    { id: 19, answer: "Pandas", is_correct: 1, question_id: 10 },
+    { id: 20, answer: "Django", is_correct: 0, question_id: 10 },
+    { id: 21, answer: "class", is_correct: 1, question_id: 11 },
+    { id: 22, answer: "new", is_correct: 0, question_id: 11 },
+    { id: 23, answer: "Java Virtual Machine", is_correct: 1, question_id: 12 },
+    { id: 24, answer: "Java Vendor Module", is_correct: 0, question_id: 12 },
+    { id: 25, answer: "False", is_correct: 1, question_id: 13 },
+    { id: 26, answer: "True", is_correct: 0, question_id: 13 },
+    { id: 27, answer: "main()", is_correct: 1, question_id: 14 },
+    { id: 28, answer: "start()", is_correct: 0, question_id: 14 },
+    { id: 29, answer: "Class", is_correct: 1, question_id: 15 },
+    { id: 30, answer: "Object", is_correct: 0, question_id: 15 },
+    { id: 31, answer: "Increment", is_correct: 1, question_id: 16 },
+    { id: 32, answer: "Decrement", is_correct: 0, question_id: 16 },
+    { id: 33, answer: "Garbage collection", is_correct: 1, question_id: 17 },
+    { id: 34, answer: "Operator overloading", is_correct: 0, question_id: 17 },
+    { id: 35, answer: "True", is_correct: 1, question_id: 18 },
+    { id: 36, answer: "False", is_correct: 0, question_id: 18 },
+    { id: 37, answer: "->", is_correct: 1, question_id: 19 },
+    { id: 38, answer: ".", is_correct: 0, question_id: 19 },
+    { id: 39, answer: "for", is_correct: 1, question_id: 20 },
+    { id: 40, answer: "loop", is_correct: 0, question_id: 20 },
+    { id: 41, answer: "void", is_correct: 1, question_id: 21 },
+    { id: 42, answer: "def", is_correct: 0, question_id: 21 },
+    { id: 43, answer: "True", is_correct: 1, question_id: 22 },
+    { id: 44, answer: "False", is_correct: 0, question_id: 22 },
+    { id: 45, answer: "int", is_correct: 1, question_id: 23 },
+    { id: 46, answer: "String", is_correct: 0, question_id: 23 },
+    { id: 47, answer: "const", is_correct: 1, question_id: 24 },
+    { id: 48, answer: "define", is_correct: 0, question_id: 24 },
+    { id: 49, answer: ".NET", is_correct: 1, question_id: 25 },
+    { id: 50, answer: "Laravel", is_correct: 0, question_id: 25 },
+    { id: 51, answer: "def", is_correct: 1, question_id: 26 },
+    { id: 52, answer: "method", is_correct: 0, question_id: 26 },
+    { id: 53, answer: "True", is_correct: 1, question_id: 27 },
+    { id: 54, answer: "False", is_correct: 0, question_id: 27 },
+    { id: 55, answer: "@", is_correct: 1, question_id: 28 },
+    { id: 56, answer: "$", is_correct: 0, question_id: 28 },
+    { id: 57, answer: "Rails", is_correct: 1, question_id: 29 },
+    { id: 58, answer: "Flask", is_correct: 0, question_id: 29 },
+    { id: 59, answer: "RubyGems", is_correct: 1, question_id: 30 },
+    { id: 60, answer: "Pip", is_correct: 0, question_id: 30 },
+    { id: 61, answer: "SELECT", is_correct: 1, question_id: 31 },
+    { id: 62, answer: "FETCH", is_correct: 0, question_id: 31 },
+    { id: 63, answer: "False", is_correct: 1, question_id: 32 },
+    { id: 64, answer: "True", is_correct: 0, question_id: 32 },
+    { id: 65, answer: "UPDATE", is_correct: 1, question_id: 33 },
+    { id: 66, answer: "MODIFY", is_correct: 0, question_id: 33 },
+    { id: 67, answer: "Structured Query Language", is_correct: 1, question_id: 34 },
+    { id: 68, answer: "Sequential Query Language", is_correct: 0, question_id: 34 },
+    { id: 69, answer: "WHERE", is_correct: 1, question_id: 35 },
+    { id: 70, answer: "FILTER", is_correct: 0, question_id: 35 },
+    { id: 71, answer: "NoSQL", is_correct: 1, question_id: 36 },
+    { id: 72, answer: "Relational", is_correct: 0, question_id: 36 },
+    { id: 73, answer: "Binary JSON", is_correct: 1, question_id: 37 },
+    { id: 74, answer: "Big JSON", is_correct: 0, question_id: 37 },
+    { id: 75, answer: "True", is_correct: 1, question_id: 38 },
+    { id: 76, answer: "False", is_correct: 0, question_id: 38 },
+    { id: 77, answer: "insertOne()", is_correct: 1, question_id: 39 },
+    { id: 78, answer: "addDocument()", is_correct: 0, question_id: 39 },
+    { id: 79, answer: "27017", is_correct: 1, question_id: 40 },
+    { id: 80, answer: "8080", is_correct: 0, question_id: 40 },
+    { id: 81, answer: "SQL:1999", is_correct: 1, question_id: 41 },
+    { id: 82, answer: "SQL:2016", is_correct: 0, question_id: 41 },
+    { id: 83, answer: "True", is_correct: 1, question_id: 42 },
+    { id: 84, answer: "False", is_correct: 0, question_id: 42 },
+    { id: 85, answer: "CREATE DATABASE", is_correct: 1, question_id: 43 },
+    { id: 86, answer: "NEW DATABASE", is_correct: 0, question_id: 43 },
+    { id: 87, answer: "B-Tree", is_correct: 1, question_id: 44 },
+    { id: 88, answer: "Hash Indexing", is_correct: 0, question_id: 44 },
+    { id: 89, answer: "C", is_correct: 1, question_id: 45 },
+    { id: 90, answer: "Python", is_correct: 0, question_id: 45 },
+    { id: 91, answer: "Oracle Corporation", is_correct: 1, question_id: 46 },
+    { id: 92, answer: "Microsoft", is_correct: 0, question_id: 46 },
+    { id: 93, answer: "InnoDB", is_correct: 1, question_id: 47 },
+    { id: 94, answer: "MyISAM", is_correct: 0, question_id: 47 },
+    { id: 95, answer: "True", is_correct: 1, question_id: 48 },
+    { id: 96, answer: "False", is_correct: 0, question_id: 48 },
+    { id: 97, answer: "SHOW DATABASES", is_correct: 1, question_id: 49 },
+    { id: 98, answer: "LIST DATABASES", is_correct: 0, question_id: 49 },
 
 
 ]

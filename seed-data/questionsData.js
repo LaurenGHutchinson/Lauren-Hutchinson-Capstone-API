@@ -1,92 +1,59 @@
 export default [
-
-    {
-        id: 1,
-        question: "What is the main function of a web server in a back-end system?",
-        skill_id: 1,
-        tags: "web server, back-end"
-      },
-      {
-        id: 2,
-        question: "True or False: A RESTful API uses HTTP methods like GET, POST, PUT, and DELETE.",
-        skill_id: 10,
-        tags: "REST, API, HTTP"
-      },
-      {
-        id: 3,
-        question: "Which of the following is NOT a relational database?",
-        skill_id: 4,
-        tags: "databases, SQL, NoSQL"
-      },
-      {
-        id: 4,
-        question: "In the context of databases, what does ACID stand for?",
-        skill_id: 4,
-        tags: "databases, ACID"
-      },
-      {
-        id: 5,
-        question: "Which of the following HTTP status codes indicates a successful request?",
-        skill_id: 9,
-        tags: "HTTP, status codes, web development"
-      },
-      {
-        id: 6,
-        question: "True or False: SQL is used to manipulate and query relational databases.",
-        skill_id: 4,
-        tags: "SQL, databases"
-      },
-      {
-        id: 7,
-        question: "Which of the following data types is not typically supported in most SQL databases?",
-        skill_id: 4,
-        tags: "SQL, data types"
-      },
-      {
-        id: 8,
-        question: "What is the role of an API in back-end development?",
-        skill_id: 9,
-        tags: "API, back-end"
-      },
-      {
-        id: 9,
-        question: "True or False: In a REST API, the PUT method is idempotent, meaning multiple identical requests should have the same effect as a single one.",
-        skill_id: 9,
-        tags: "REST, API, HTTP"
-      },
-      {
-        id: 10,
-        question: "Which of the following is a NoSQL database?",
-        skill_id: 4,
-        tags: "NoSQL, databases"
-      },
-      
-    {
-        id: 12,
-        question: "True or False: A foreign key in a relational database is used to establish a relationship between two tables.",
-        skill_id: 4,
-        tags: "SQL, databases, keys"
-      },
-      {
-        id: 13,
-        question: "Which of the following is a common design pattern used in back-end development?",
-        skill_id: 7,
-        tags: "design patterns, back-end"
-      },
-      {
-        id: 14,
-        question: "True or False: In a microservices architecture, services should be tightly coupled and dependent on each other.",
-        skill_id: 24,
-        tags: "architecture, microservices"
-      },
-      {
-        id: 15,
-        question: "What does CRUD stand for in back-end development?",
-        skill_id: 4,
-        tags: "databases"
-      }
-]
-
+  
+    { id: 1, question: "What is JavaScript primarily used for?", skill_id: 1 },
+    { id: 2, question: "Which of the following is a JavaScript data type?", skill_id: 1 },
+    { id: 3, question: "Which method is used to parse a string to an integer in JavaScript?", skill_id: 1 },
+    { id: 4, question: "True or False: JavaScript is a case-sensitive language.", skill_id: 1 },
+    { id: 5, question: "Which keyword is used to declare a variable in JavaScript?", skill_id: 1 },
+    { id: 6, question: "What is Python primarily known for?", skill_id: 2 },
+    { id: 7, question: "Which keyword is used to define a function in Python?", skill_id: 2 },
+    { id: 8, question: "True or False: Python is an interpreted language.", skill_id: 2 },
+    { id: 9, question: "Which of the following is a Python data structure?", skill_id: 2 },
+    { id: 10, question: "Which library is commonly used for data analysis in Python?", skill_id: 2 },
+    { id: 11, question: "Which keyword is used to define a class in Java?", skill_id: 3 },
+    { id: 12, question: "What does JVM stand for?", skill_id: 3 },
+    { id: 13, question: "True or False: Java supports multiple inheritance.", skill_id: 3 },
+    { id: 14, question: "Which method is used to start the execution of a Java program?", skill_id: 3 },
+    { id: 15, question: "Which data type is used to create an object in Java?", skill_id: 3 },
+    { id: 16, question: "What does the '++' in C++ signify?", skill_id: 4 },
+    { id: 17, question: "Which of the following is not a feature of C++?", skill_id: 4 },
+    { id: 18, question: "True or False: C++ supports object-oriented programming.", skill_id: 4 },
+    { id: 19, question: "Which operator is used to access a class member in C++?", skill_id: 4 },
+    { id: 20, question: "Which of the following is a C++ loop structure?", skill_id: 4 },
+    { id: 21, question: "Which keyword is used to declare a method in C#?", skill_id: 5 },
+    { id: 22, question: "True or False: C# is a statically typed language.", skill_id: 5 },
+    { id: 23, question: "Which of the following is a C# data type?", skill_id: 5 },
+    { id: 24, question: "Which keyword is used to declare a constant in C#?", skill_id: 5 },
+    { id: 25, question: "Which framework is primarily used with C# for web development?", skill_id: 5 },
+    { id: 26, question: "Which keyword is used to define a method in Ruby?", skill_id: 6 },
+    { id: 27, question: "True or False: Ruby is an object-oriented language.", skill_id: 6 },
+    { id: 28, question: "Which symbol is used to denote an instance variable in Ruby?", skill_id: 6 },
+    { id: 29, question: "Which of the following is a Ruby web framework?", skill_id: 6 },
+    { id: 30, question: "What is the name of Ruby's package manager?", skill_id: 6 },
+    { id: 31, question: "Which SQL statement is used to retrieve data from a database?", skill_id: 7 },
+    { id: 32, question: "True or False: SQL is case-sensitive.", skill_id: 7 },
+    { id: 33, question: "Which SQL command is used to update existing records?", skill_id: 7 },
+    { id: 34, question: "What does SQL stand for?", skill_id: 7 },
+    { id: 35, question: "Which clause is used to filter records in SQL?", skill_id: 7 },
+    { id: 36, question: "MongoDB is an example of which type of database?", skill_id: 8 },
+    { id: 37, question: "What does BSON stand for?", skill_id: 8 },
+    { id: 38, question: "True or False: MongoDB supports ACID transactions.", skill_id: 8 },
+    { id: 39, question: "Which command is used to insert a document in MongoDB?", skill_id: 8 },
+    { id: 40, question: "What is the default port number for MongoDB?", skill_id: 8 },
+    { id: 41, question: "Which SQL standard does PostgreSQL closely adhere to?", skill_id: 9 },
+    { id: 42, question: "True or False: PostgreSQL supports JSON data types.", skill_id: 9 },
+    { id: 43, question: "Which command is used to create a database in PostgreSQL?", skill_id: 9 },
+    { id: 44, question: "Which type of indexing is supported by PostgreSQL?", skill_id: 9 },
+    { id: 45, question: "Which language is PostgreSQL written in?", skill_id: 9 },
+    { id: 46, question: "Which company developed MySQL?", skill_id: 10 },
+    { id: 47, question: "Which storage engine is the default in MySQL?", skill_id: 10 },
+    { id: 48, question: "True or False: MySQL is open source.", skill_id: 10 },
+    { id: 49, question: "Which command is used to view databases in MySQL?", skill_id: 10 },
+    { id: 50, question: "What is the maximum size of a VARCHAR field in MySQL?", skill_id: 10 }
 
 
   
+  
+
+
+]

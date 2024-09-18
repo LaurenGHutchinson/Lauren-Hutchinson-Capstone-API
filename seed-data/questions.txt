@@ -1,189 +1,92 @@
 export default [
+
+    {
+        id: 1,
+        question: "What is the main function of a web server in a back-end system?",
+        skill_id: 1,
+        tags: "web server, back-end"
+      },
+      {
+        id: 2,
+        question: "True or False: A RESTful API uses HTTP methods like GET, POST, PUT, and DELETE.",
+        skill_id: 10,
+        tags: "REST, API, HTTP"
+      },
+      {
+        id: 3,
+        question: "Which of the following is NOT a relational database?",
+        skill_id: 4,
+        tags: "databases, SQL, NoSQL"
+      },
+      {
+        id: 4,
+        question: "In the context of databases, what does ACID stand for?",
+        skill_id: 4,
+        tags: "databases, ACID"
+      },
+      {
+        id: 5,
+        question: "Which of the following HTTP status codes indicates a successful request?",
+        skill_id: 9,
+        tags: "HTTP, status codes, web development"
+      },
+      {
+        id: 6,
+        question: "True or False: SQL is used to manipulate and query relational databases.",
+        skill_id: 4,
+        tags: "SQL, databases"
+      },
+      {
+        id: 7,
+        question: "Which of the following data types is not typically supported in most SQL databases?",
+        skill_id: 4,
+        tags: "SQL, data types"
+      },
+      {
+        id: 8,
+        question: "What is the role of an API in back-end development?",
+        skill_id: 9,
+        tags: "API, back-end"
+      },
+      {
+        id: 9,
+        question: "True or False: In a REST API, the PUT method is idempotent, meaning multiple identical requests should have the same effect as a single one.",
+        skill_id: 9,
+        tags: "REST, API, HTTP"
+      },
+      {
+        id: 10,
+        question: "Which of the following is a NoSQL database?",
+        skill_id: 4,
+        tags: "NoSQL, databases"
+      },
+      
+    {
+        id: 12,
+        question: "True or False: A foreign key in a relational database is used to establish a relationship between two tables.",
+        skill_id: 4,
+        tags: "SQL, databases, keys"
+      },
+      {
+        id: 13,
+        question: "Which of the following is a common design pattern used in back-end development?",
+        skill_id: 7,
+        tags: "design patterns, back-end"
+      },
+      {
+        id: 14,
+        question: "True or False: In a microservices architecture, services should be tightly coupled and dependent on each other.",
+        skill_id: 24,
+        tags: "architecture, microservices"
+      },
+      {
+        id: 15,
+        question: "What does CRUD stand for in back-end development?",
+        skill_id: 4,
+        tags: "databases"
+      }
 ]
-[
-    {
-      "id": 1,
-      "question": "What is the main function of a web server in a back-end system?",
-      "answers": [
-        { "id": "a", "answer": "To handle and process client requests" },
-        { "id": "b", "answer": "To render HTML on the client side" },
-        { "id": "c", "answer": "To create UI components for the user" },
-        { "id": "d", "answer": "To store front-end code" }
-      ],
-      "correctSolution": "a",
-      "type": "multiple choice",
-      "difficulty": "easy",
-      "tags": ["web server", "back-end"]
-    },
-    {
-      "id": 2,
-      "question": "True or False: A RESTful API uses HTTP methods like GET, POST, PUT, and DELETE.",
-      "answers": [
-        { "id": "a", "answer": "True" },
-        { "id": "b", "answer": "False" }
-      ],
-      "correctSolution": "a",
-      "type": "true/false",
-      "difficulty": "easy",
-      "tags": ["REST", "API", "HTTP"]
-    },
-    {
-      "id": 3,
-      "question": "Which of the following is NOT a relational database?",
-      "answers": [
-        { "id": "a", "answer": "PostgreSQL" },
-        { "id": "b", "answer": "MongoDB" },
-        { "id": "c", "answer": "MySQL" },
-        { "id": "d", "answer": "SQLite" }
-      ],
-      "correctSolution": "b",
-      "type": "multiple choice",
-      "difficulty": "medium",
-      "tags": ["databases", "SQL", "NoSQL"]
-    },
-    {
-      "id": 4,
-      "question": "In the context of databases, what does ACID stand for?",
-      "answers": [
-        { "id": "a", "answer": "Atomicity, Consistency, Isolation, Durability" },
-        { "id": "b", "answer": "Access, Consistency, Isolation, Durability" },
-        { "id": "c", "answer": "Atomicity, Compression, Integrity, Durability" },
-        { "id": "d", "answer": "Atomicity, Consistency, Integration, Durability" }
-      ],
-      "correctSolution": "a",
-      "type": "multiple choice",
-      "difficulty": "medium",
-      "tags": ["databases", "ACID"]
-    },
-    {
-      "id": 5,
-      "question": "Which of the following HTTP status codes indicates a successful request?",
-      "answers": [
-        { "id": "a", "answer": "200" },
-        { "id": "b", "answer": "404" },
-        { "id": "c", "answer": "500" },
-        { "id": "d", "answer": "403" }
-      ],
-      "correctSolution": "a",
-      "type": "multiple choice",
-      "difficulty": "easy",
-      "tags": ["HTTP", "status codes", "web development"]
-    },
-    {
-      "id": 6,
-      "question": "True or False: SQL is used to manipulate and query relational databases.",
-      "answers": [
-        { "id": "a", "answer": "True" },
-        { "id": "b", "answer": "False" }
-      ],
-      "correctSolution": "a",
-      "type": "true/false",
-      "difficulty": "easy",
-      "tags": ["SQL", "databases"]
-    },
-    {
-      "id": 7,
-      "question": "Which of the following data types is not typically supported in most SQL databases?",
-      "answers": [
-        { "id": "a", "answer": "INTEGER" },
-        { "id": "b", "answer": "VARCHAR" },
-        { "id": "c", "answer": "BLOB" },
-        { "id": "d", "answer": "ARRAY" }
-      ],
-      "correctSolution": "d",
-      "type": "multiple choice",
-      "difficulty": "medium",
-      "tags": ["SQL", "data types"]
-    },
-    {
-      "id": 8,
-      "question": "What is the role of an API in back-end development?",
-      "answers": [
-        { "id": "a", "answer": "To create visual elements for the user" },
-        { "id": "b", "answer": "To manage database connections" },
-        { "id": "c", "answer": "To allow communication between different software applications" },
-        { "id": "d", "answer": "To handle client-side routing" }
-      ],
-      "correctSolution": "c",
-      "type": "multiple choice",
-      "difficulty": "easy",
-      "tags": ["API", "back-end"]
-    },
-    {
-      "id": 9,
-      "question": "True or False: In a REST API, the PUT method is idempotent, meaning multiple identical requests should have the same effect as a single one.",
-      "answers": [
-        { "id": "a", "answer": "True" },
-        { "id": "b", "answer": "False" }
-      ],
-      "correctSolution": "a",
-      "type": "true/false",
-      "difficulty": "medium",
-      "tags": ["REST", "API", "HTTP"]
-    },
-    {
-      "id": 10,
-      "question": "Which of the following is a NoSQL database?",
-      "answers": [
-        { "id": "a", "answer": "PostgreSQL" },
-        { "id": "b", "answer": "MongoDB" },
-        { "id": "c", "answer": "SQLite" },
-        { "id": "d", "answer": "MySQL" }
-      ],
-      "correctSolution": "b",
-      "type": "multiple choice",
-      "difficulty": "easy",
-      "tags": ["NoSQL", "databases"]
-    },
-    {
-      "id": 12,
-      "question": "True or False: A foreign key in a relational database is used to establish a relationship between two tables.",
-      "answers": [
-        { "id": "a", "answer": "True" },
-        { "id": "b", "answer": "False" }
-      ],
-      "correctSolution": "a",
-      "type": "true/false",
-      "difficulty": "easy",
-      "tags": ["SQL", "databases", "keys"]
-    },
-    {
-      "id": 13,
-      "question": "Which of the following is a common design pattern used in back-end development?",
-      "answers": [
-        { "id": "a", "answer": "Observer Pattern" },
-        { "id": "b", "answer": "Model-View-Controller (MVC)" },
-        { "id": "c", "answer": "Singleton Pattern" },
-        { "id": "d", "answer": "All of the above" }
-      ],
-      "correctSolution": "d",
-      "type": "multiple choice",
-      "difficulty": "medium",
-      "tags": ["design patterns", "back-end"]
-    },
-    {
-      "id": 14,
-      "question": "True or False: In a microservices architecture, services should be tightly coupled and dependent on each other.",
-      "answers": [
-        { "id": "a", "answer": "True" },
-        { "id": "b", "answer": "False" }
-      ],
-      "correctSolution": "b",
-      "type": "true/false",
-      "difficulty": "medium",
-      "tags": ["architecture", "microservices"]
-    },
-    {
-      "id": 15,
-      "question": "What does CRUD stand for in back-end development?",
-      "answers": [
-        { "id": "a", "answer": "Create, Read, Update, Delete" },
-        { "id": "b", "answer": "Create, Run, Update, Deploy" },
-        { "id": "c", "answer": "Connect, Retrieve, Update, Delete" },
-        { "id": "d", "answer": "Configure, Read, Use, Delete" }
-      ],
-      "correctSolution": "a",
-      "type": "multiple choice",
-      "difficulty": "easy",
-     
+
+
+
   
