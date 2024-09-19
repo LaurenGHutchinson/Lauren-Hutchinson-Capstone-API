@@ -16,7 +16,7 @@ const index = async (_req,res) => {
 const getAnswers = async (req,res) => {
     try{
         const answerData = await knex('answers')
-            .select('answers.id', 'answer', 'question_id')
+            .select('answers.id', 'answer', 'question_id', 'is_correct')
             .innerJoin('questions', 'answers.question_id', 'questions.id')
             .where('answers.question_id', req.params.id);
 
