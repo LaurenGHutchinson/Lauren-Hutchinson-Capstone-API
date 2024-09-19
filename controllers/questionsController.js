@@ -21,7 +21,7 @@ const getQuestions = async (req,res) => {
 
             if(!questionData){
                 return res.status(404)
-                    .send(`Skills list for job with title: ${req.params.id} does not exist`)
+                    .send(`Question list for skills with title: ${req.params.id} does not exist`)
             }
             res.status(200).json(questionData)
         } catch (error){
