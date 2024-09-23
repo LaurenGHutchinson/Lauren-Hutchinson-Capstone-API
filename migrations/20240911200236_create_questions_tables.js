@@ -7,6 +7,7 @@ export function up(knex) {
           .onDelete('CASCADE')                      // Deletes associated skills if the job is deleted
           .onUpdate('CASCADE');                     // Updates associated skills if the job id is updated
       });
+
 };
   
   export function down(knex) {

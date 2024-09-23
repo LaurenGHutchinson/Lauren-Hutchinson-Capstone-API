@@ -9,7 +9,7 @@ export default [
         skill: "Python",
         category: "Programming Language"
     },
-    {
+    { 
         id: 3,
         skill: "Java",
         category: "Programming Language"
@@ -130,23 +130,8 @@ export default [
         category: "Version Control"
     },
     {
-        id: 27,
-        skill: "GitLab",
-        category: "Version Control"
-    },
-    {
         id: 28,
         skill: "Bitbucket",
-        category: "Version Control"
-    },
-    {
-        id: 29,
-        skill: "SVN",
-        category: "Version Control"
-    },
-    {
-        id: 30,
-        skill: "Mercurial",
         category: "Version Control"
     },
     {
@@ -160,23 +145,8 @@ export default [
         category: "Development Process"
     },
     {
-        id: 33,
-        skill: "Kanban",
-        category: "Development Process"
-    },
-    {
         id: 34,
         skill: "Continuous Integration",
-        category: "Development Process"
-    },
-    {
-        id: 35,
-        skill: "Test-Driven Development",
-        category: "Development Process"
-    },
-    {
-        id: 36,
-        skill: "DevOps",
         category: "Development Process"
     },
     {
@@ -197,16 +167,6 @@ export default [
     {
         id: 40,
         skill: "AWS",
-        category: "Cloud Platform"
-    },
-    {
-        id: 41,
-        skill: "Microsoft Azure",
-        category: "Cloud Platform"
-    },
-    {
-        id: 42,
-        skill: "Google Cloud Platform",
         category: "Cloud Platform"
     },
     {
@@ -245,11 +205,6 @@ export default [
         category: "Testing"
     },
     {
-        id: 50,
-        skill: "Mocha",
-        category: "Testing"
-    },
-    {
         id: 51,
         skill: "RESTful APIs",
         category: "Web Services"
@@ -257,16 +212,6 @@ export default [
     {
         id: 52,
         skill: "GraphQL",
-        category: "Web Services"
-    },
-    {
-        id: 53,
-        skill: "SOAP",
-        category: "Web Services"
-    },
-    {
-        id: 54,
-        skill: "gRPC",
         category: "Web Services"
     },
     {
@@ -290,48 +235,8 @@ export default [
         category: "Architecture"
     },
     {
-        id: 59,
-        skill: "Event-Driven Architecture",
-        category: "Architecture"
-    },
-    {
         id: 60,
         skill: "Service-Oriented Architecture (SOA)",
         category: "Architecture"
-    },
-    {
-        id: 61,
-        skill: "Serverless Architecture",
-        category: "Architecture"
-    },
-    {
-        id: 62,
-        skill: "MVC Architecture",
-        category: "Architecture"
-    },
-    {
-        id: 63,
-        skill: "Terraform",
-        category: "Infrastructure as Code"
-    },
-    {
-        id: 64,
-        skill: "Puppet",
-        category: "Infrastructure as Code"
-    },
-    {
-        id: 65,
-        skill: "Chef",
-        category: "Infrastructure as Code"
-    },
-    {
-        id: 66,
-        skill: "Bash",
-        category: "Scripting"
-    },
-    {
-        id: 67,
-        skill: "PowerShell",
-        category: "Scripting"
     }
 ];

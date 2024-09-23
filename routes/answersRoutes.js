@@ -8,13 +8,6 @@ const knex = initKnex(config);
 
 answersRouter.route('/').get(answersController.index);
 
-answersRouter.get('/', async (_req,res) => {
-    try{
-        const data = await knex('answers');
-        res.status(200).json(data);
-    }catch (err){
-        res.status(400).send(`Error retreiving Answers: ${err}`)
-    }
-})
+answersRouter.route('/:id').get(answersController.getAnswers);
 
 export default answersRouter;

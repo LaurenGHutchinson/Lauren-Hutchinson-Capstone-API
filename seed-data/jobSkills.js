@@ -298,5 +298,12 @@ export default [
         id: 60,
         job_id: 6,
         skill_id: 56
+    },
+    {
+        id: 61,
+        job_id: 5,
+        skill_id: 20
     }
+
+
 ];

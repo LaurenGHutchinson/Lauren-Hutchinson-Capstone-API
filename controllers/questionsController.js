@@ -15,13 +15,13 @@ const index = async (_req,res) => {
 const getQuestions = async (req,res) => {
     try{
         const questionData = await knex('questions')
-            .select('questions.id', 'question', 'skill_id')
+            .select('questions.id', 'question', 'skill_id', 'skill_name')
             .innerJoin('skills', 'questions.skill_id', 'skills.id')
             .where('questions.skill_id', req.params.id);
 
             if(!questionData){
                 return res.status(404)
-                    .send(`Skills list for job with title: ${req.params.id} does not exist`)
+                    .send(`Question list for skills with title: ${req.params.id} does not exist`)
             }
             res.status(200).json(questionData)
         } catch (error){
