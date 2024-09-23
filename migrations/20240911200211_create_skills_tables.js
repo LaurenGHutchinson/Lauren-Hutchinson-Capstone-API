@@ -1,15 +1,11 @@
-/**
- * @param { import("knex").Knex } knex
- * @returns { Promise<void> }
- */
-exports.up = function(knex) {
+export function up(knex) {
+    return knex.schema.createTable('skills', (table) => {
+        table.increments('id').primary();    
+        table.string('skill').notNullable();   
+        table.string('category').notNullable();    
+      });
+  };
   
-};
-
-/**
- * @param { import("knex").Knex } knex
- * @returns { Promise<void> }
- */
-exports.down = function(knex) {
-  
-};
+  export function down(knex) {
+    return knex.schema.dropTable('skills')
+  };

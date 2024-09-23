@@ -1,8 +1,12 @@
 import express from 'express';
 const jobsRouter = express.Router();
+import initKnex from 'knex';
+import config from '../knexfile.js'
+import * as jobsController from '../controllers/jobsController.js'
 
-jobsRouter.get('/', (req,res)=> {
-    res.send("welcome to my jobs API")
-})
+const knex = initKnex(config);
+
+jobsRouter.route('/')
+    .get(jobsController.getJobs);
 
 export default jobsRouter;
