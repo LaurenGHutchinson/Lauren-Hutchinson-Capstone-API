@@ -9,7 +9,7 @@ export default [
         skill: "Python",
         category: "Programming Language"
     },
-    {
+    { 
         id: 3,
         skill: "Java",
         category: "Programming Language"
