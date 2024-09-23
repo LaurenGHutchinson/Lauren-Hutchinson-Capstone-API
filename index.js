@@ -8,6 +8,7 @@ import questionsRouter from './routes/questionsRoutes.js';
 import skillsRouter from './routes/skillsRoutes.js';
 import answersRouter from './routes/answersRoutes.js';
 import debuggerRouter from './routes/debuggerRoutes.js'
+import codingChallengeRouter from './routes/codingChallengeRoutes.js'
 
 
 const app = express(); //initializing an express app
@@ -27,6 +28,7 @@ app.use("/skills", skillsRouter);
 app.use("/questions", questionsRouter);
 app.use("/answers", answersRouter);
 app.use("/debugger", debuggerRouter)
+app.use("/codingChallenge", codingChallengeRouter)
 
 
 app.listen(PORT, ()=> {
