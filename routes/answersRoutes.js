@@ -6,8 +6,10 @@ import * as answersController from '../controllers/answersController.js'
 
 const knex = initKnex(config);
 
-answersRouter.route('/').get(answersController.index);
+answersRouter.route('/')
+    .get(answersController.index);
 
-answersRouter.route('/:id').get(answersController.getAnswers);
+answersRouter.route('/:id')
+    .get(answersController.getAnswers);
 
 export default answersRouter;

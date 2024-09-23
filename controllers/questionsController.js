@@ -7,8 +7,8 @@ const index = async (_req,res) => {
     try{
         const data = await knex('questions');
         res.status(200).json(data);
-    }catch (err){
-        res.status(400).send(`Error retreiving Questions: ${err}`)
+    }catch (error){
+        res.status(400).send(`Error retreiving all questions: ${error}`)
     }
 }
 

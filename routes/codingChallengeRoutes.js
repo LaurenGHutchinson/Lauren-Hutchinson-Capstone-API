@@ -6,6 +6,7 @@ import * as codingChallengeController from '../controllers/codingChallengeContro
 
 const knex = initKnex(config);
 
-codingChallengeRouter.route('/').get(codingChallengeController.getCodingChallenge);
+codingChallengeRouter.route('/')
+    .get(codingChallengeController.getCodingChallenge);
 
 export default codingChallengeRouter;

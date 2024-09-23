@@ -6,8 +6,10 @@ import * as questionsController from '../controllers/questionsController.js'
 
 const knex = initKnex(config);
 
-questionsRouter.route('/').get(questionsController.index);
+questionsRouter.route('/')
+    .get(questionsController.index);
 
-questionsRouter.route('/:id').get(questionsController.getQuestions);
+questionsRouter.route('/:id')
+    .get(questionsController.getQuestions);
 
 export default questionsRouter;
