@@ -18,9 +18,7 @@ try{
     }
 
 } catch (error) {
-
-    console.error(error);
-    res.status(500).json({ error: 'An error occurred while fetching data' });
+    res.status(400).send(`Error retreiving debugging challenge code: ${error}`)
 }
 }
 

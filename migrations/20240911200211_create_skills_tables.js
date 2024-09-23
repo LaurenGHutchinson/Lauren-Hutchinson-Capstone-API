@@ -1,8 +1,8 @@
 export function up(knex) {
     return knex.schema.createTable('skills', (table) => {
-        table.increments('id').primary();           // Auto-incrementing primary key
-        table.string('skill').notNullable();        // Skill string
-        table.string('category').notNullable();     // Skill category string
+        table.increments('id').primary();    
+        table.string('skill').notNullable();   
+        table.string('category').notNullable();    
       });
   };
   

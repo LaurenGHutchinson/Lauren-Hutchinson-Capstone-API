@@ -6,6 +6,7 @@ import * as debuggerController from '../controllers/debuggerControllers.js'
 
 const knex = initKnex(config);
 
-debuggerRouter.route('/:id').get(debuggerController.getDebuggingCode);
+debuggerRouter.route('/:id')
+    .get(debuggerController.getDebuggingCode);
 
 export default debuggerRouter;

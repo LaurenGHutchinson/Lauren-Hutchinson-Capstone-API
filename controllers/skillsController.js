@@ -7,8 +7,8 @@ const getSkills = async (_req,res) => {
     try{
         const data = await knex('skills');
         res.status(200).json(data);
-    }catch (err){
-        res.status(400).send(`Error retreiving Skills: ${err}`)
+    }catch (error){
+        res.status(400).send(`Error retreiving Skills: ${error}`)
     }
 }
 
