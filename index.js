@@ -7,6 +7,7 @@ import jobsRouter from './routes/jobsRoutes.js';
 import questionsRouter from './routes/questionsRoutes.js';
 import skillsRouter from './routes/skillsRoutes.js';
 import answersRouter from './routes/answersRoutes.js';
+import debuggerRouter from './routes/debuggerRoutes.js'
 
 
 const app = express(); //initializing an express app
@@ -25,6 +26,7 @@ app.use("/jobs", jobsRouter);
 app.use("/skills", skillsRouter);
 app.use("/questions", questionsRouter);
 app.use("/answers", answersRouter);
+app.use("/debugger", debuggerRouter)
 
 
 app.listen(PORT, ()=> {
