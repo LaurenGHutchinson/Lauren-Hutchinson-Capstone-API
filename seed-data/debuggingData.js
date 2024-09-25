@@ -5,7 +5,7 @@ export default [
         \t}\n}\n\nprintNumbers();\n`,
       typescript: `//Prints numbers from 0 to 4.\nfunction printNumbers(): void {\n\tfor (let i = 0; i <= 5; i++) {\n
         \t\tconsole.log(i);\n\t}\n}\n\nprintNumbers();\n`,
-      python: `//Prints numbers from 0 to 4.\ndef print_numbers():\n\tfor i in range(6):\n\t\tprint(i)\n
+      python: `#Prints numbers from 0 to 4.\ndef print_numbers():\n\tfor i in range(6):\n\t\tprint(i)\n
         \nprint_numbers()\n`,
       java: `//Prints numbers from 0 to 4.\npublic class Main {\n\tpublic static void printNumbers() {\n
         \t\tfor (int i = 0; i <= 5; i++) {\n\t\t\tSystem.out.println(i);\n\t\t}\n
@@ -39,7 +39,7 @@ export default [
         }\n\n
         sumEvenNumbers([1, 2, 3, 4, 5, 6]);\n
       `,
-      python: `//Prints the sum of all even numbers in the array, which is 12.
+      python: `#Prints the sum of all even numbers in the array, which is 12.
         \ndef sum_even_numbers(numbers):\n
         \teven_sum = 0\n
         \tfor number in numbers:\n
@@ -93,7 +93,7 @@ export default [
         }\n\n
         compareStrings("Hello", "hello");\n
       `,
-      python: `//Prints "Strings are not equal." because the comparison is case-sensitive.
+      python: `# Prints "Strings are not equal." because the comparison is case-sensitive.
         \ndef compare_strings(str1, str2):\n
         \tif str1 == str2:\n
         \t\tprint("Strings are equal!")\n
@@ -128,7 +128,7 @@ export default [
         }\n\n
         console.log(calculateArea(5));\n
       `,
-      python: `//Prints the calculated area of a circle with radius 5, which is approximately 78.5.
+      python: `#Prints the calculated area of a circle with radius 5, which is approximately 78.5.
         \ndef calculate_area(radius):\n
         \treturn 3.14 * radius ** 2\n\n
         print(calculate_area(5))\n

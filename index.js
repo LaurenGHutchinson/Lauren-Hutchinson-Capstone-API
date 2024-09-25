@@ -16,8 +16,10 @@ const knex = initKnex(config);
 
 const PORT = process.env.PORT || 8080;
 
+const domain_api= `https://www.byteback-edu.com`;
+
 app.use(express.json()); 
-app.use(cors({origin: process.env.CORS_ORIGIN}));
+app.use(cors({origin: process.env.CORS_ORIGIN || domain_api}));
 
 app.get('/', (req,res)=> {
     res.send("Welcome to my capstone API")
