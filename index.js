@@ -13,11 +13,22 @@ import codingChallengeRouter from './routes/codingChallengeRoutes.js'
 
 const app = express(); 
 const knex = initKnex(config); 
+const allowedOrigins = ['https://www.byteback-edu.com', 'https://frabjous-lolly-1006b2.netlify.app', 'https://www.byteback-edu.com']
 
 const PORT = process.env.PORT || 8080;
 
 app.use(express.json()); 
-app.use(cors({origin: process.env.CORS_ORIGIN || `https://www.byteback-edu.com` || "https://frabjous-lolly-1006b2.netlify.app"}));
+
+app.use(cors({
+    origin: function (origin, callback) {
+      if (!origin || allowedOrigins.indexOf(origin) !== -1) {
+        callback(null, true);
+      } else {
+        callback(new Error('Not allowed by CORS'));
+      }
+    }
+  }));
+
 
 app.get('/', (req,res)=> {
     res.send("Welcome to my capstone API")
