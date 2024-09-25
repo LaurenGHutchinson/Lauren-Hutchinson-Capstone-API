@@ -13,7 +13,7 @@ import codingChallengeRouter from './routes/codingChallengeRoutes.js'
 
 const app = express(); 
 const knex = initKnex(config); 
-const allowedOrigins = ['https://www.byteback-edu.com', 'https://frabjous-lolly-1006b2.netlify.app', 'https://www.byteback-edu.com']
+const allowedOrigins = ['https://byteback-edu.com', 'https://frabjous-lolly-1006b2.netlify.app', 'https://www.byteback-edu.com']
 
 const PORT = process.env.PORT || 8080;
 
